@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Palladio Visualization</title>
+  <script src="https://cdn.jsdelivr.net/npm/palladio@latest/dist/palladio-app.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/palladio@latest/dist/palladio-app.min.css">
+</head>
+<body>
+  <div id="palladio-container"></div>
+
+  <script type="text/javascript">
+    var palladioConfig = {
+      "url": "https://raw.githubusercontent.com/drericjohns/TU_Student_Country_of_Origin/main/Student%20Country%20of%20Origin.palladio.1.2.9%20(1).json"
+    };
+
+    Palladio.mount(document.getElementById('palladio-container'), palladioConfig);
+  </script>
+</body>
+</html>
